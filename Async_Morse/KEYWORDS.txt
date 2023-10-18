@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Morse	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+palavra	KEYWORD2
+ativar	KEYWORD2
+verificarMorse	KEYWORD2
+executarMorse	KEYWORD2
+morseLED	KEYWORD2
+finalMorse	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
+Async_Morse	LITERAL1
