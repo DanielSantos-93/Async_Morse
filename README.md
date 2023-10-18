@@ -30,6 +30,10 @@ instanciar objetos da classe Morse definindo os tempos padrões para o funcionam
 **Método para definir qual palavra será traduzida em código Morse, podendo passar o argumento opcional para repetir a palavra após finalizar o código Morse**
 <li>morse.palavra(String text, bool repeat = false);</li><br>
 
+**Método necessário para que o programa possa checar quaisquer novos eventos e realizar as ações necessárias. Necessário incluir no loop principal do projeto.
+É possível passar um argumento opcional de debug no qual irá exibir a palavra, a letra e o código morse está sendo executado naquele momento**
+<li>morse.ativar(bool debug = false, bool state = true);</li><br>
+
 **Atributo da instância criada da classe Morse para identificar se já terminou de executar o texto**
 <li>morse.finalMorse</li>
 
