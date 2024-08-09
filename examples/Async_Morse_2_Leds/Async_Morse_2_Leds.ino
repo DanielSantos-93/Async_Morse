@@ -13,7 +13,7 @@ Morse morse2(4, 200, 1000, 200, 1000, 2000, 3000);
 void setup() {
   Serial.begin(115200);
   morse1.palavra("Daniel"); // Define a palavra "Daniel" para o objeto morse1, sem repetição
-  morse2.palavra("SOS", true); // Define a palavra "Daniel" para o objeto morse2, com repetição
+  morse2.palavra("SOS", true); // Define a palavra "SOS" para o objeto morse2, com repetição
 }
 
 void loop() {
